@@ -7,9 +7,11 @@ Este repositorio contiene un pipeline automatizado desarrollado en Python y SQLi
 El proyecto implementa la clase "InventarioBD" para estructurar el flujo de datos (ETL):
 
 1. Ingesta (Load): Creación de la base de datos local y tablas necesarias.
+   
 2. Transformación (Transform):
    * Corrección de errores de tipografía en nombres de productos.
-   * Limpieza de categorías vacías.
+   * Limpieza de categorías vacías
+   
 3. Auditoría (Analytics):
    * Filtrado dinámico de ítems disponibles.
    * Cálculo acumulado de métricas de stock.
